@@ -29,12 +29,12 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ![首页](https://github.com/liguangze/image/blob/master/1557997465486.jpg?raw=true)
 
-!(https://github.com/liguangze/image/blob/master/1557997747591.jpg?raw=true)
+![知识体系](https://github.com/liguangze/image/blob/master/1557997747591.jpg?raw=true)
 
-!(https://github.com/liguangze/image/blob/master/1557997772909.jpg?raw=true)
+![公众号](https://github.com/liguangze/image/blob/master/1557997772909.jpg?raw=true)
 
-!(https://github.com/liguangze/image/blob/master/1557997794754.jpg?raw=true)
+![导航](https://github.com/liguangze/image/blob/master/1557997794754.jpg?raw=true)
 
-!(https://github.com/liguangze/image/blob/master/1557997820009.jpg?raw=true)
+![个人中心](https://github.com/liguangze/image/blob/master/1557997820009.jpg?raw=true)
 
-!(https://github.com/liguangze/image/blob/master/1557997845891.jpg?raw=true)
+![体系详情](https://github.com/liguangze/image/blob/master/1557997845891.jpg?raw=true)
