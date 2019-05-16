@@ -1,0 +1,6 @@
+<!--pages/home/homedetail/homedetail.wxml-->
+<view>
+
+<web-view src="{{link}}"></web-view>
+ 
+</view>

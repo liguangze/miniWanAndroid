@@ -1,0 +1,24 @@
+.nameurl {
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ea2930;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-bottom: 12px;
+}
+
+.inputNumber,.inputPassword{
+  height: 50px;
+ border-bottom: 1px #999 solid;
+ margin-left: 12px;
+ margin-right: 12px;
+}
+.button-login{
+  margin-top: 20px;
+}

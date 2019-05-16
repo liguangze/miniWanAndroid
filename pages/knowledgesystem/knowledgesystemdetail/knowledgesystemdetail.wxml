@@ -1,0 +1,40 @@
+<!--pages/knowledgesystem/knowledgesystemdetail/knowledgesystemdetail.wxml-->
+<!-- <view class='scroll-header'>
+  <scroll-view scroll-x = "true">
+    <view class='itemknowledgesystem' wx:for="{{itemknowledgesystem}}" wx:key="{{item.id}}">
+      <text class='itemknowledgesystemtext' bindtap='clickText'>{{item.name}}</text>
+    </view>
+  </scroll-view>
+</view> -->
+
+
+
+<view class="container1">
+  <!-- tab导航栏 -->
+  <!-- scroll-left属性可以控制滚动条位置 -->
+  <!-- scroll-with-animation滚动添加动画过渡 -->
+  <scroll-view scroll-x="true" class="nav" scroll-left="{{navScrollLeft}}" scroll-with-animation="{{true}}">
+    <block wx:for="{{itemknowledgesystem}}" wx:for-index="idx" wx:for-item="navItem" wx:key="idx">
+      <view class="nav-item {{currentTab == idx ?'active':''}}" data-current="{{idx}}" data-cid="{{navItem.id}}" bindtap="switchNav">{{navItem.name}}</view>
+    </block>
+  </scroll-view>
+  <!-- 页面内容 -->
+  <swiper style="height:{{height}}px" class="tab-box" current="{{currentTab}}" duration="300" bindchange="switchTab">
+    <swiper-item wx:for="{{itemknowledgesystem}}" wx:for-index="idx" wx:key="idx">
+      <view wx:for="{{detailItemknowledgesystem.data.datas}}" wx:for-item="tabItem" wx:for-index="idx" wx:key="idx" data-link='{{tabItem.link}}' bindtap="clickDetail" >
+
+
+        <view id='view-row'>
+          <view class='author'>{{tabItem.author}}</view>
+          <view class='time'>{{tabItem.niceDate}}</view>
+        </view>
+
+        <view class='title'>{{tabItem.title}}</view>
+        <view class='chapterName'>{{tabItem.superChapterName}}/{{tabItem.chapterName}}</view>
+        <view id='line'></view>
+
+
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

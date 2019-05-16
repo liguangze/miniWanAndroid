@@ -1,0 +1,41 @@
+/* pages/project/addtodo/addtodo.wxss */
+.container{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 1px;
+  
+  
+}
+
+.text{
+  width: 15%;
+  font-size: 14px;
+}
+
+.input{
+ width: 85%;
+ font-size: 14px;
+ min-height: 30px;
+ height: auto;
+ padding: 10rpx;
+ border: 1rpx solid red;
+}
+
+
+.detail{
+ width: 85%;
+ font-size: 14px;
+ min-height: 90px;
+ height: auto;
+ padding: 10rpx;
+ border: 1rpx solid red;
+}
+
+.button{
+    width: 80%;
+  margin-top: 60px;
+  background-color: red;
+  color: white;
+  border-radius: 98rpx; 
+}

@@ -1,0 +1,24 @@
+<view class='caregory'>
+  <scroll-view class="nav_left" scroll-y>
+    <block wx:for="{{navLeftItems.data}}" wx:key="index">
+      <view class="nav_left_items {{curIndex == index ? 'nav_left_item-active' : ''}}" data-index="{{index}}" bindtap="currentTabs">
+        {{item.name}}
+      </view>
+    </block>
+  </scroll-view>
+  <scroll-view class='nav_right' scroll-y>
+    <view  style='padding-bottom: 10px;'>
+        <view class='jd-category'>
+          <view class='title'>{{title}}</view>
+          <view class='jd-category-wrap'>
+            <block wx:for="{{navRightItems}}" wx:for-item="list" wx:key="index">
+              <view class='jd-category-style' data-product="{{list.title}}"  data-link="{{list.link}}"   bindtap='gotoProductDetail'>
+                <text class='list_text' style='color :{{randomColorArr[index]}}' >{{list.title}}</text>
+              </view>
+            </block>
+          </view>
+        </view>
+     
+    </view>
+  </scroll-view>
+</view>

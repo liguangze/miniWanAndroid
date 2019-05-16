@@ -1,0 +1,35 @@
+<!--pages/project/todo/todo.wxml-->
+<view>
+  <scroll-view scroll-x="true">
+    <view class='indictor_container'>
+      <block wx:for="{{typeList}}" wx:key="{{index}}">
+        <block wx:if="{{type==index}}">
+          <text class='indictor_selected' bindtap='click' data-index='{{index}}'>{{item}}</text>
+        </block>
+        <block wx:else>
+          <text class='indictor_normal' bindtap='click' data-index='{{index}}'>{{item}}</text>
+        </block>
+      </block>
+    </view>
+  </scroll-view>
+  <view class='todoList' id='view-column'>
+    <block wx:for="{{contentList}}" wx:key="{{index}}">
+      <text class='todotitle' style='color:red ; font-size: 20px' >{{item.title}}</text>
+      <text class='todocontent'style='color:#999999'>{{item.content}}</text>
+      <text class='todotime'>{{item.dateStr}}</text>
+
+      <view class='bottom_container'>
+      <text class='edit' style='background:blue' bindtap='edit' data-index='{{index}}'>编辑</text>
+      <text class='edit' style='background:green' bindtap='finish' data-index='{{index}}'>完成</text>
+      <text class='edit' style='background:red' bindtap='delete' data-index='{{index}}'>删除</text>
+    </view>
+
+      <text class='line'></text>
+    </block>
+  </view>
+
+
+
+  <image bindtap='addtodo' class='addtodo' src='../../image/add.png'></image>
+  <image bindtap='finishtodo' class='finishtodo' src='../../image/wancheng.png'></image>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/project/addtodo/addtodo.wxml-->
+
+<view class='page' id='view-column'>
+  <view class='container' id='line'>
+    <text class='text'>标题:</text>
+    <textarea class='input' placeholder='请输入标题' bindinput='titleInput' value="{{title}}"   ></textarea>
+  </view>
+
+
+  <view class='container' id='line'>
+    <text class='text'>详情:</text>
+    <textarea class='detail' placeholder='请输入详情' bindinput='detailInput' value="{{content}}"   ></textarea>
+  </view>
+
+
+  <view class='container'>
+    <text class='text'>时间:</text>
+    
+      <picker style='width:100%' mode="date" value="{{date}}" start="2010-01-01" end="2040-01-01" bindchange="bindDateChange">
+        <view class="picker">
+          <view class='input' style='min-height:20px;width:96%' >{{date}}</view>
+        </view>
+      </picker>
+    
+  </view>
+
+   <view class='container'>
+    <text class='text'>类型:</text>
+     <picker style='width:100%' mode="selector" value="{{type}}" range="{{statusArray}}" bindchange="bindStatusChange">
+        <view class="picker">
+          <view class='input' style='min-height:20px;width:96%' >{{statusArray[type]}}</view>
+        </view>
+      </picker>
+  </view>
+
+<button class='button' bindtap='sumbit' > 添加</button>
+
+  </view>

@@ -1,0 +1,75 @@
+/* pages/project/todo/todo.wxss */
+
+.indictor_container {
+  display: flex;
+  flex-direction: row;
+}
+
+/**
+*类型未选中的样式
+*/
+
+.indictor_normal {
+  text-align: center;
+  font-size: 14px;
+  white-space: nowrap;
+  flex-grow: 1;
+  width: auto;
+  margin-left: 20rpx;
+  color: black;
+}
+
+/**
+*类型选中的样式
+*/
+
+.indictor_selected {
+  text-align: center;
+  font-size: 14px;
+  white-space: nowrap;
+  flex-grow: 1;
+  width: auto;
+  margin-left: 20rpx;
+  color: red;
+  border-bottom: 4rpx solid red;
+  padding-bottom: 5px;
+}
+
+.addtodo {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.finishtodo {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+
+
+.todotitle,.todocontent,.todotime{
+  padding: 10px;
+}
+
+.bottom_container{
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.edit{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-size: 12px;
+  align-self: center;
+  border-radius: 10%;
+  margin-left: 10px;
+}

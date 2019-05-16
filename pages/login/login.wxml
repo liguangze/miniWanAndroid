@@ -1,0 +1,10 @@
+<view class='contain'>
+  <view class='nameurl' id='view-column'>
+    <image class='avatar' src='{{url}}'></image>
+    <text>{{name}}</text>
+  </view>
+
+  <input class='inputNumber' type="number" placeholder="请输入账号" bindinput="inputNumber" />
+  <input class='inputPassword' type="number" placeholder="请输入密码" bindinput="inputPassword" />
+  <button  class='button-login' bindtap="login">登录</button>
+</view>

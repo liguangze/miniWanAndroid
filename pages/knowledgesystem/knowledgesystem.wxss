@@ -1,0 +1,27 @@
+/* pages/knowledgesystem/knowledgesystem.wxss */
+
+.konwledge-image {
+    width: 40rpx;
+  height: 40rpx;
+}
+.image{
+  position: absolute;
+  right: 20rpx;
+}
+.childrenname{
+ 
+  margin-right: 30rpx;
+   color: #999999;
+   font-size: 15px;
+}
+
+.childrennamet{
+  position: relative;
+ margin-right: 100rpx;
+}
+
+
+
+.line{
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+/* pages/knowledgesystem/knowledgesystemdetail/knowledgesystemdetail.wxss */
+.container1 {
+
+
+ margin-top: 100rpx;
+
+} 
+
+.nav {
+    height: 80rpx;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 80rpx;
+    background: #f7f7f7;
+    font-size: 16px;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+  z-index: 100;
+}
+.nav-item {
+  
+    display: inline-block;
+    text-align: center;
+    margin-left: 30rpx;
+    margin-right: 15rpx;
+width: 150rpx;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.nav-item.active{
+    color: red;
+}
+
+.tab-box{
+   width: 100%;
+    margin: 20rpx;
+}
+.author{
+   margin-top: 20rpx;
+   color: #999999;
+
+}
+.time{
+   margin-top: 20rpx;
+   color: #999999;
+   position: absolute;
+   right: 40rpx;
+}
+.title{
+  margin-top: 20rpx;
+}
+.chapterName{
+  color: #999999;
+ margin-top: 20rpx;
+}
+

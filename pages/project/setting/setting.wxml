@@ -1,0 +1,10 @@
+<!--pages/project/setting/setting.wxml-->
+<view id='view-column' class='content'>
+<text>玩Android 开放API</text>
+<text>部分内容参考了 digtal 如有侵权请联系本人 </text>
+<!-- <web-view  src = "https://github.com/digtal/wanandroid-program">https://github.com/digtal/wanandroid-program</web-view>
+
+<navigator url="https://github.com/digtal/wanandroid-program">跳转A</navigator> -->
+<text>https://github.com/digtal/wanandroid-program</text>
+
+</view>

@@ -1,0 +1,46 @@
+/* pages/project/collection/collection.wxss */
+.home-name{
+  margin: 20rpx;
+  font-size: 30rpx;
+  color: #999999
+}
+
+.home-time{
+  position: absolute;
+  right: 20rpx;
+  margin: 20rpx;
+  font-size: 30rpx;
+  color: #999999
+}
+
+.home-content{
+ margin-left: 20rpx;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+
+.home-chapterName{
+   margin: 20rpx;
+   font-size: 30rpx;
+   background-color: #ea2930;
+   padding: 5rpx;
+}
+.envelopePic-image{
+  width: 180rpx;
+  height: 180rpx;
+}
+/* #image-envelopePic{
+  width: 80rpx;
+  height: 80rpx;
+} */
+
+
+.home-collection{
+ width: 54rpx;
+  height: 50rpx;
+   display: flex;
+   position: absolute;
+   right: 30rpx;
+ margin: 20rpx;
+}

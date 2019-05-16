@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/knowledgesystem/knowledgesystem",
+    "pages/navigation/navigation",
+    "pages/project/project",
+    "pages/home/homedetail/homedetail",
+    "pages/knowledgesystem/knowledgesystemdetail/knowledgesystemdetail",
+    "pages/weixin/weixin",
+    "pages/login/login",
+    "pages/project/collection/collection",
+    "pages/project/exitLogin/exitLogin",
+    "pages/project/setting/setting",
+    "pages/project/todo/todo",
+    "pages/project/addtodo/addtodo",
+    "pages/project/finishtodo/finishtodo"
+  ],
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#ea2930",
+    "borderStyle": "black",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "selectedIconPath": "pages/image/main_home.png",
+        "iconPath": "pages/image/main_home_no.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/image/home_cpnc_narket.png",
+        "iconPath": "pages/image/home_cpnc_narket_no.png",
+        "pagePath": "pages/knowledgesystem/knowledgesystem",
+        "text": "知识体系"
+      },
+      {
+        "selectedIconPath": "pages/image/weixin_select.png",
+        "iconPath": "pages/image/weixin_select_no.png",
+        "pagePath": "pages/weixin/weixin",
+        "text": "公众号"
+      },
+      {
+        "selectedIconPath": "pages/image/home_enterprise.png",
+        "iconPath": "pages/image/home_enterprise_no.png",
+        "pagePath": "pages/navigation/navigation",
+        "text": "导航"
+      },
+      {
+        "selectedIconPath": "pages/image/home_mine.png",
+        "iconPath": "pages/image/home_mine_no.png",
+        "pagePath": "pages/project/project",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#ea2930",
+    "navigationBarTitleText": "玩Android",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

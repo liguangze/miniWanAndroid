@@ -1,0 +1,40 @@
+<view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      获取头像昵称
+    </button>
+    <block wx:else>
+      <view class='nameurl' id='view-column'>
+        <image  bindtap='clickLogin' class='avatar' src='{{url}}'></image>
+        <text>微信账户：{{weixinName}}</text>
+        <text wx:if="{{wanAndroidName!=''}}"  >WanAndroid账户：{{wanAndroidName}}</text>
+         <text  wx:if="{{wanAndroidName ==''}}" class='careful'>注：此登录并非真正的登录，只是获取微信头像与名称，请点击头像登录</text>
+      </view>
+    </block>
+  
+  </view>
+
+  <view id='view-column'>
+
+    <view class='item1' bindtap='collection'>
+      <image class='collection-image'   src='../image/collection.png'></image>
+      <text class='collection-text'>收藏</text>
+    </view>
+
+    <view class='item1' bindtap='todo'>
+      <image class='collection-image' src='../image/todo.png'></image>
+      <text class='collection-text'>TODO</text>
+    </view>
+
+    <view class='item1' bindtap='setting'>
+      <image class='collection-image' src='../image/setting.png'></image>
+      <text class='collection-text'>关于我们</text>
+    </view>
+
+    <view   wx:if="{{wanAndroidName!=''}}" class='item1' bindtap='exitLogin'>
+      <image class='collection-image' src='../image/exit.png'></image>
+      <text class='collection-text'>退出登录</text>
+    </view>
+
+  </view>
+</view>

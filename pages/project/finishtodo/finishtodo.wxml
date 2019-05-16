@@ -1,0 +1,24 @@
+<!--pages/project/finishtodo/finishtodo.wxml-->
+
+<view>
+  <scroll-view scroll-x="true">
+    <view class='indictor_container'>
+      <block wx:for="{{typeList}}" wx:key="{{index}}">
+        <block wx:if="{{type==index}}">
+          <text class='indictor_selected' bindtap='click' data-index='{{index}}'>{{item}}</text>
+        </block>
+        <block wx:else>
+          <text class='indictor_normal' bindtap='click' data-index='{{index}}'>{{item}}</text>
+        </block>
+      </block>
+    </view>
+  </scroll-view>
+  <view class='todoList' id='view-column'>
+    <block wx:for="{{contentList}}" wx:key="{{index}}">
+      <text class='todotitle' style='color:red ; font-size: 20px' >{{item.title}}</text>
+      <text class='todocontent'style='color:#999999'>{{item.content}}</text>
+      <text class='todotime'>{{item.dateStr}}</text>
+      <text class='line'></text>
+    </block>
+  </view>
+</view>

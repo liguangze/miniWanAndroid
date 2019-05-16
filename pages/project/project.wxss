@@ -1,0 +1,45 @@
+.nameurl {
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ea2930;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-bottom: 12px;
+}
+
+.collection-image {
+  margin-left: 20px;
+  height: 25px;
+  width: 25px;
+}
+
+.item1 {
+  display: flex;
+  height: 55px;
+  align-items: center;
+}
+
+.collection-text {
+  font-size: 30rpx;
+  margin-left: 20px;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  background-color: #ea2930;
+}
+.careful{
+  padding: 20px;
+  color:yellow;
+}

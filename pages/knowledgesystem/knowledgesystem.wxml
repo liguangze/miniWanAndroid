@@ -1,0 +1,25 @@
+<view class="page">
+  <view class="knowledgesystem">
+
+    <block wx:for="{{knowledgesystemData.data}}" wx:key="{{item.id}}">
+      <view  class='line' bindtap='knowledgesystemdetail' data-itemdata='{{item.children}}'>
+        <view  >
+          <view>
+            <text>{{item.name}}</text>
+
+          </view>
+          <view class='childrennamet'>
+            <block wx:for="{{item.children}}" wx:key="{{item.id}}">
+              <text class='childrenname'>{{item.name}}</text>
+            </block>
+          </view>
+
+        </view>
+        <view class='image'>
+          <image class='konwledge-image' src='../image/arrow_right.png'></image>
+        </view>
+      </view>
+    </block>
+  </view>
+
+</view>

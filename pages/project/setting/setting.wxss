@@ -1,0 +1,9 @@
+/* pages/project/setting/setting.wxss */
+.content{
+  padding: 20px;
+  color:red;
+}
+
+/* .content > text{
+  color:red;
+} */

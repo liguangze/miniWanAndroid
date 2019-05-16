@@ -1,0 +1,23 @@
+<!--pages/project/collection/collection.wxml-->
+<view class="page">
+  <block wx:for="{{homeData}}" wx:key="{{item.id}}">
+    <view class='view-column' id='line' bindtap='toHomeDetail' data-link='{{item.link}}'>
+      <view class='view-row'>
+        <view class='home-name'>{{item.author}}</view>
+        <view class='home-time'>{{item.niceDate}}</view>
+      </view>
+
+      <view wx:if="{{ item.envelopePic.length > 0 }}" class='view-row' id='envelopePic-image'>
+        <image class='envelopePic-image' src='{{item.envelopePic}}'></image>
+      </view>
+     
+        <view class='home-content'>{{item.title}}</view>
+        <view class='view-row'>
+          <view class='home-chapterName'>{{item.chapterName}}</view>
+          <image  class='home-collection' catchtap='onCollectionTap' src="../../image/home_collect_yes.png" data-id='{{item.originId}}' data-collect='{{item.collect}}'       data-index='{{index}}'  ></image>
+   
+        </view>
+     
+    </view>
+  </block>
+</view>
