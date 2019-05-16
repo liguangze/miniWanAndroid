@@ -29,12 +29,12 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ![首页](https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997465486.jpg?token=ACQPTMXI5MP5QYFWS5LYTSK43UWQS)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997747591.jpg?token=ACQPTMWJFKN3QSWJ7CJPQ3C43UWY4)
+![知识体系](https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997747591.jpg?token=ACQPTMWJFKN3QSWJ7CJPQ3C43UWY4)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997772909.jpg?token=ACQPTMV765GA3KWDQUN2BPS43UWZE)
+![公众号](https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997772909.jpg?token=ACQPTMV765GA3KWDQUN2BPS43UWZE)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997794754.jpg?token=ACQPTMUV7KXQMEI2NO6LN5C43UWZO)
+![导航](https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997794754.jpg?token=ACQPTMUV7KXQMEI2NO6LN5C43UWZO)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997820009.jpg?token=ACQPTMW37IEH5Y4R427RPTK43UWZS)
+![个人中心](https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997820009.jpg?token=ACQPTMW37IEH5Y4R427RPTK43UWZS)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997845891.jpg?token=ACQPTMVOCM7OLRBHAXOWLQ243UWZK)
+![体系详情](https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997845891.jpg?token=ACQPTMVOCM7OLRBHAXOWLQ243UWZK)
