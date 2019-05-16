@@ -27,14 +27,14 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ## 功能截图
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997465486.jpg?token=ACQPTMXI5MP5QYFWS5LYTSK43UWQS)
+!(https://github.com/liguangze/image/blob/master/1557997465486.jpg?raw=true)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997747591.jpg?token=ACQPTMWJFKN3QSWJ7CJPQ3C43UWY4)
+!(https://github.com/liguangze/image/blob/master/1557997747591.jpg?raw=true)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997772909.jpg?token=ACQPTMV765GA3KWDQUN2BPS43UWZE)
+!(https://github.com/liguangze/image/blob/master/1557997772909.jpg?raw=true)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997794754.jpg?token=ACQPTMUV7KXQMEI2NO6LN5C43UWZO)
+!(https://github.com/liguangze/image/blob/master/1557997794754.jpg?raw=true)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997820009.jpg?token=ACQPTMW37IEH5Y4R427RPTK43UWZS)
+!(https://github.com/liguangze/image/blob/master/1557997820009.jpg?raw=true)
 
-!(https://raw.githubusercontent.com/liguangze/image/7fac91ed7180b9e32d2783f5befcf3fbd1586868/1557997845891.jpg?token=ACQPTMVOCM7OLRBHAXOWLQ243UWZK)
+!(https://github.com/liguangze/image/blob/master/1557997845891.jpg?raw=true)
