@@ -27,3 +27,4 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ## 功能截图
 
+!(https://github.com/liguangze/image.git/1557997465486.jpg)
