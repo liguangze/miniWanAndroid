@@ -46,3 +46,22 @@ https://github.com/liguangze/miniWanAndroid.git
 
 
 ![体系详情](https://github.com/liguangze/image/blob/master/06036.jpg?raw=true)
+
+
+
+## 感谢
+
+- wanAndroid  https://www.wanandroid.com/
+- 安卓小程序   https://github.com/digtal/wanandroid-program
+
+
+## 后期更新
+
+- 完善界面
+- 待实现TODO清单功能
+
+
+
+
+
+
