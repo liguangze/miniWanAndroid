@@ -9,10 +9,10 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ## 主要功能
 - ### 首页
-包含轮播图以及列表，添加收藏
+包含轮播图以及列表，添加收藏取消收藏，包含上拉刷新数据，与下拉加载更多以及详情页面的展示
 
 - ### 知识体系
-常用知识列表页面已经点击进去详情页面导航式展示
+常用知识列表页面，点击进入详情页面，导航栏切换展示列表页面，导航自动滚动展示
 
 - ### 公众号
 常用公众号列表导航式展示
@@ -30,27 +30,19 @@ https://github.com/liguangze/miniWanAndroid.git
 
 
 
+![首页](https://github.com/liguangze/image/blob/master/06031.jpg?raw=true)
 
 
-- ![](https://github.com/liguangze/image/blob/master/06031.jpg?raw=true)
-
-- ![wwwwwww](https://github.com/liguangze/image/blob/master/0603.jpg?raw=true)
+![知识体系](https://github.com/liguangze/image/blob/master/06032.jpg?raw=true)
 
 
-
-- ![首页](https://github.com/liguangze/image/blob/master/1558000757357.jpg?raw=true)
-
-
-- ![知识体系](https://github.com/liguangze/image/blob/master/1558000864666.jpg?raw=true)
+![公众号](https://github.com/liguangze/image/blob/master/06033.jpg?raw=true)
 
 
-- ![公众号](https://github.com/liguangze/image/blob/master/1558000890964.jpg?raw=true)
+![导航](https://github.com/liguangze/image/blob/master/06034.jpg?raw=true)
 
 
-- ![导航](https://github.com/liguangze/image/blob/master/1558000912336.jpg?raw=true)
+![个人中心](https://github.com/liguangze/image/blob/master/06035.jpg?raw=true)
 
 
-- ![个人中心](https://github.com/liguangze/image/blob/master/1558000933436.jpg?raw=true)
-
-
-- ![体系详情](https://github.com/liguangze/image/blob/master/1558000959859.jpg?raw=true)
+![体系详情](https://github.com/liguangze/image/blob/master/06036.jpg?raw=true)
