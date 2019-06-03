@@ -47,6 +47,10 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ![体系详情](https://github.com/liguangze/image/blob/master/06036.jpg?raw=true)
 
+![todo](https://github.com/liguangze/image/blob/master/06037.jpg?raw=true)
+
+![addtodo](https://github.com/liguangze/image/blob/master/06038.jpg?raw=true)
+
 
 
 ## 感谢
@@ -57,8 +61,9 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ## 后期更新
 
-- 完善界面
-- 待实现TODO清单功能
+- 完善界面美化
+- 注册功能
+- 部分界面的上拉刷新与下拉加载更多
 
 
 
