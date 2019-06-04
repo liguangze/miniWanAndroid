@@ -9,11 +9,21 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"coverView": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.6.0",
-	"appid": "wx15081c656dcfe71f",
+	"appid": "wx6c9c306a42978bce",
 	"projectname": "wanAndroid",
 	"debugOptions": {
 		"hidedInDevtools": []
