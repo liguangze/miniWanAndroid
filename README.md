@@ -31,26 +31,26 @@ https://github.com/liguangze/miniWanAndroid.git
 
 
 
-![首页](./images/06031.png)
+![首页](./images/06031.jpg)
 
 
-![知识体系](./images/06032.png)
+![知识体系](./images/06032.jpg)
 
 
-![公众号](./images/06033.png)
+![公众号](./images/06033.jpg)
 
 
-![导航](./images/06034.png)
+![导航](./images/06034.jpg)
 
 
-![个人中心](./images/06035.png)
+![个人中心](./images/06035.jpg)
 
 
-![体系详情](./images/06036.png)
+![体系详情](./images/06036.jpg)
 
-![todo](./images/06037.png)
+![todo](./images/06037.jpg)
 
-![addtodo](./images/06038.png)
+![addtodo](./images/06038.jpg)
 
 
 
