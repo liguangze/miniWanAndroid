@@ -33,18 +33,13 @@ https://github.com/liguangze/miniWanAndroid.git
 
 ![首页](./images/06031.jpg)
 
-
 ![知识体系](./images/06032.jpg)
-
 
 ![公众号](./images/06033.jpg)
 
-
 ![导航](./images/06034.jpg)
 
-
 ![个人中心](./images/06035.jpg)
-
 
 ![体系详情](./images/06036.jpg)
 
@@ -57,7 +52,7 @@ https://github.com/liguangze/miniWanAndroid.git
 ## 感谢
 
 - wanAndroid  https://www.wanandroid.com/
-- 安卓小程序   https://github.com/digtal/wanandroid-program
+- 微信小程序   https://github.com/digtal/wanandroid-program
 
 
 ## 后期更新
